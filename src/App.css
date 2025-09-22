@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.hero-photo {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.hero-photo {
+  transition: box-shadow 0.3s ease;
+}
+.hero-photo:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
